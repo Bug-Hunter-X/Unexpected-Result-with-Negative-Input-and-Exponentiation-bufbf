@@ -1,0 +1,3 @@
+# Julia Bug: Unexpected Result with Negative Input and Exponentiation
+
+This repository demonstrates a subtle bug in a Julia function related to squaring negative numbers. The function intends to return the square of the input, regardless of the sign. However, due to the way Julia handles the `^` operator with negative bases and integer exponents, the results are unexpected for negative inputs.  The solution shows how to correctly handle negative input to get the expected squared value.
